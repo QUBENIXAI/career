@@ -1,0 +1,26 @@
+{
+  "name": "@qubenix/careers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "typecheck": "tsc --noEmit",
+    "test:apps-script": "node --test apps-script/test/code.test.mjs",
+    "mock:apps-script": "node apps-script/test/mock-webapp.mjs 3999"
+  },
+  "dependencies": {
+    "lucide-react": "^1.75.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}
